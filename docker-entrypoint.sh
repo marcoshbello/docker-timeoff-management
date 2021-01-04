@@ -68,7 +68,7 @@ else
    {
      "production": {
         "dialect": "sqlite",
-		"storage": "./db.production.sqlite"
+		"storage": "./data/db.production.sqlite"
      }
   }
 EOF

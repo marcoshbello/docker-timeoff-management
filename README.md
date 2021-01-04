@@ -38,3 +38,11 @@ _Build_:
 
 _Run_:
 > $ docker run -e NODE_ENV=production -e MYSQL_USER=timeoff timeoff
+
+### Build with docker-compose
+
+_production_:
+> $ docker-compose up -d timeoff
+
+_development_:
+> $ docker-compose up -d timeoff_dev
